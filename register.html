@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register Form</title>
+  <style>
+    .contener{
+      width:610px;
+      height:1000px;
+      background-color: #3edcf7;
+      text-align: center;
+      margin-top: 40px;
+      margin-left: 320px;
+      font-weight: bold;
+      border-radius: 95px;
+    }
+    .signup{
+      padding-top: 80px;
+      font-size:50px;
+      color: blue;
+    }
+    .first{
+      font-size: 35px;
+      margin-top: 60px;
+      height:65px;
+      border-radius:40px;
+      padding-left: 30px;
+    }
+    .last{
+      font-size: 35px;
+      margin-top: 50px;
+      height: 65px;
+      border-radius: 40px;
+      padding-left: 30px;
+    }
+    .email{
+      font-size: 35px;
+      margin-top: 50px;
+      height: 65px;
+      border-radius: 40px;
+      padding-left: 30px;
+    }
+    .pass{
+      font-size: 35px;
+      margin-top: 50px;
+      height: 65px;
+      border-radius: 40px;
+      padding-left: 30px;
+    }
+    .repass{
+      font-size: 35px;
+      margin-top: 50px;
+      height: 65px;
+      border-radius: 40px;
+      padding-left: 30px;
+     }
+    .submit{
+      font-size: 35px;
+      height:80px;
+      width: 300px;
+      margin-top: 50px;
+      padding: 20px;
+      border-radius:49px;
+    }
+    .submit:hover{
+      background-color: black;
+      color: white;
+    }
+    u{
+      color: blue;
+      margin-top: 45px;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="connection1.php" method="POST">
+  <div class="contener">
+    <div class="signup">
+       Sign up
+        <div>
+          <input type="text"placeholder="enter your first name.."class="first"name="First_Name">
+        </div>
+        <div>
+          <input type="text"placeholder="enter your last name.." class="last" name="Last_Name">
+        </div>
+        <div>
+          <input type="email"placeholder="enter your email id.."class="email" name="Email_Id">
+        </div>
+        <div>
+          <input type="password"placeholder="create new password.."class="pass" name="Password">
+        </div>
+        <div>
+          <input type="password"placeholder="Re-enter password.."class="repass" name="Re_password">
+        </div>
+        <div>
+          <input type="submit"value="Register"class="submit" name="submit"/>
+        </div>
+    </div>
+      <h2>Already have an registered user !! <u><a href="index.php">Sign in</a></u> !!</h2>
+  </div>
+</form>
+
+</body>
+
+
+</html>
